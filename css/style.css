@@ -37,7 +37,7 @@
 
 #form-box, #register-container {
     background-color: #FFF;
-    border: 1px solid#DBDBDB;
+    border: 1px solid #DBDBDB;
     width: 350px;
     margin-top: 30px;
 }
@@ -56,7 +56,7 @@
 #login-form input {
     display: block;
     font-size: 12px;
-    padding: 12px 17px;
+    padding: 12px 9px;
     background-color: #FAFAFA;
     border: 1px solid #DBDBDB;
     border-radius: 3px;
@@ -84,11 +84,12 @@
 .separator .line {
     border-top: 1px solid #DBDBDB;
     width: 268px;
-    margin: 25px auto;
+    margin: 25px auto 35px;
 }
 
 .separator span {
     position: absolute;
+    text-transform: uppercase;
     color: #BBB;
     width: 50px;
     top: -6px;
@@ -149,30 +150,30 @@
 }
 
 #register-container a {
-    color: #4a95f6;
+    color: #4A95f6;
     font-weight: bold;
     text-decoration: none;
 }
 
 /* obter o app */
 
+#get-app-container {
+    text-align: center;
+    width: 350px;
+}
+
 #get-app-container p {
     margin: 20px 0;
     font-size: 13px;
-    margin-right: 438px;
 }
 
 #get-app-container a {
     text-decoration: none;
 }
 
-#logo-app img {
+#get-app-container img {
     width: 136px;
     height: 40px;
-}
-
-#logo-app {
-    margin-left: -443px;
 }
 
 /* rodapé */
